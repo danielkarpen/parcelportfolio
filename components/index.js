@@ -1,2 +1,5 @@
 // Functional Component
-export default () => `<p>I am a component!</p>`;
+import Body from "./body";
+
+export { Body };
+() => `<body>${Body()}</body>`;
